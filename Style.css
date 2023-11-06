@@ -1,0 +1,175 @@
+
+body {
+    margin: 0;
+    padding: 0;
+
+
+/* NAVIGATION BAR*/
+}
+.header-navbar {
+    position: fixed;
+    background: rgba(255, 132, 0, 0.5);
+    height: 60px;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.header-navbar h1 {
+    position: fixed;
+    top: 0px;
+    font-size: 30px;
+    padding-left: 20px;
+    color: white;
+    margin-top: 5px;
+}
+
+.navigation-bar {
+    padding-left: 20px;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.nav-item:hover a {
+    color: yellow; 
+    transition: color 0.5s ease-out;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* NAVIGATION BAR END*/
+
+
+
+/* CONTENT 1*/
+.content-1 {
+    background-image: url('Gambar/Background/Background\ Selamat\ Datang.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 200px 0;
+    color: #ffffff;
+}
+
+.container-Content-1 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.content-center {
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff8400;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* CONTENT 1 END*/
+
+
+
+
+/* Menu Section Styles */
+.menu {
+    background-image: url('Gambar/Background/Background\ Menu.jpg');
+    background-size: cover;
+    background-color: #f8f6f6;
+    padding: 60px 0;
+}
+
+.menu h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fdf8f8;
+    text-align: center;
+}
+
+.menu-item {
+    text-align: center;
+    color: #fdf8f8;
+    margin-bottom: 40px;
+}
+
+.menu-item img {
+    max-width: 10%;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff8400;
+}
+
+/* About Section Styles */
+.about {
+    background-image: url('Gambar/Background/Background\ Tentang\ Kami.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -350px;
+    padding: 90px 0;
+    color: #faf6f6;
+    text-align: center;
+}
+
+.about h2 {
+    display: inline;
+    background-color: #161513;
+    line-height: 1.5;
+
+}
+
+.about p {
+    background-color: #161513;
+    display: inline ;
+    border-radius: 5px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Contact Section Styles */
+.contact {
+    background-image: url('Gambar/Background/Background\ Hubungi\ Kami.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -00px -220px;
+    padding: 60px 0;
+    text-align: center;
+    color: #f8f6f6;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #292929;
+    color: #fff;
+    text-align: center;
+    height: 30px;
+}
